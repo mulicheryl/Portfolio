@@ -2,3 +2,11 @@ body{
   background-repeat: no-repeat;
   color:white;
 }
+ul>li>a{
+  display: inline;
+}
+ul>li{
+  display: inline;
+  float: right;
+  padding: 50px;
+}
