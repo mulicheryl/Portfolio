@@ -1,12 +1,44 @@
-body{
+body {
+  margin: auto;
+  padding: ;
+  background-size: cover;
+  opacity: 0.1em;
   background-repeat: no-repeat;
-  color:white;
+  color: white;
+  font-size: 30px;
+  font-family:fantasy;
+
+
 }
 ul>li>a{
-  display: inline;
+display: inline-flex;
+justify-content: space-between;
+color: green;
+clear: right;
+
 }
-ul>li{
-  display: inline;
-  float: right;
-  padding: 50px;
+div {
+  display: flex;
+  align-items: center;
+  background-clip: content-box;
+  color: #04f240;
+}
+
+h1 {
+  font: italic bold 2em 'Open Sans', serif;
+  color:white;
+  text-decoration: underline;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+footer{
+    border: 2px;
+    padding: 5px;
+    margin: auto;
+    background-color:blue;
+    text-align: center;
+
 }
