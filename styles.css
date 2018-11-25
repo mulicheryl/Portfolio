@@ -7,21 +7,15 @@ body {
   color: white;
   font-size: 30px;
   font-family:fantasy;
-
-
 }
-ul>li>a{
-display: inline-flex;
-justify-content: space-between;
-color: green;
-clear: right;
 
-}
 div {
   display: flex;
   align-items: center;
   background-clip: content-box;
   color: #04f240;
+  clear: right;
+  justify-content: space-between;
 }
 
 h1 {
