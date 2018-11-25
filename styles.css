@@ -11,7 +11,7 @@ body {
 
 div {
   display: flex;
-  align-items: center;
+  align-items: right;
   background-clip: content-box;
   color: #04f240;
   clear: right;
