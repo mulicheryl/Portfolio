@@ -1,21 +1,19 @@
 body {
   margin: auto;
-  padding: ;
+  padding: auto;
   background-size: cover;
   opacity: 0.1em;
   background-repeat: no-repeat;
-  color: white;
+  color: black;
   font-size: 30px;
   font-family:fantasy;
 }
 
-div {
-  display: flex;
-  align-items: right;
-  background-clip: content-box;
+ul li a{
+  float: right;
+  display: inline;
   color: #04f240;
-  clear: right;
-  justify-content: space-between;
+  padding: 5px;
 }
 
 h1 {
