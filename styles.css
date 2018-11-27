@@ -9,12 +9,31 @@ body {
   font-family:fantasy;
 }
 
-ul li a{
-  float: right;
-  display: inline;
-  color: #04f240;
-  padding: 5px;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+
+nav ul li {
+    float: right;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
 
 h1 {
   font: italic bold 2em 'Open Sans', serif;
@@ -26,11 +45,12 @@ h2{
   text-decoration: underline;
 }
 
-footer{
+.footer{
     border: 2px;
     padding: 5px;
     margin: auto;
-    background-color:blue;
+    background-color:pink;
     text-align: center;
+    list-style-type: none;
 
 }
